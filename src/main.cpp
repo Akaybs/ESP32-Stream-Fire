@@ -5,8 +5,8 @@
 
 const char *ssid = "HOANG WIFI";
 const char *password = "hhhhhhhh";
-String apiGetUrl = "https://hoanglsls-default-rtdb.asia-southeast1.firebasedatabase.app/roitai.json";
-String apiPutUrl = "https://hoanglsls-default-rtdb.asia-southeast1.firebasedatabase.app/roitai/";
+String apiGetUrl = "https://User.firebasedatabase.app/roitai.json";
+String apiPutUrl = "https://User.firebasedatabase.app/roitai/";
 
 HardwareSerial sim800(1);
 #define SIM800_TX 17
