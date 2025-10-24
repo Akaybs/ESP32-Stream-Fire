@@ -15,9 +15,16 @@
 #include <HardwareSerial.h>
 #include "ExampleFunctions.h"    // Bắt buộc: set_ssl_client_insecure_and_buffer, getAuth, auth_debug_print...
 
+<<<<<<< HEAD
 // === Cấu hình Wi-Fi / Firebase / SIM ===
 #define WIFI_SSID "HOANG WIFI"
 #define WIFI_PASSWORD "hhhhhhhh"
+=======
+const char *ssid = "HOANG WIFI";
+const char *password = "hhhhhhhh";
+String apiGetUrl = "https://User.firebasedatabase.app/roitai.json";
+String apiPutUrl = "https://User.firebasedatabase.app/roitai/";
+>>>>>>> da321ba185cb9ea5d9d5d45f5877fe03843f9f69
 
 #define Web_API_KEY "AIzaSyD-f2CMpJkrXrjttgoPAouLPQon4jd5PWE"
 #define DATABASE_URL "https://hoanglsls-default-rtdb.asia-southeast1.firebasedatabase.app/"
